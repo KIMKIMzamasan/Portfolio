@@ -21,12 +21,12 @@
                 ? " opacity-full pointer-events-auto"
                 : " pointer-events-none opacity-0")}
     >
-        <button on:click={goTop}
-            class="ml-auto rounded-full bg-slate-900 text-violet-400 px-3 sm:px-4 hover:bg-slate-800 cursor-pointer aspect-square grid place-items-center">
-            <i class="fa-solid fa-arrow-up" />
+        <button on:click={goTop} aria-label="Go to top"
+            class="ml-auto rounded-full aspect-square bg-slate-900 text-violet-400 px-3 sm:px-4 hover:bg-slate-800 cursor-pointer aspect-square grid place-items-center">
+            <i class="fa-solid fa-arrow-up"></i>
         </button>
     </div>
-    <Header {y} {innerHeight}/>
+    <Header {y}/>
     <slot />
     <Footer />
 </div>
