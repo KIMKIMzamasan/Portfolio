@@ -148,7 +148,7 @@
         </div>
       {/each}
     </div>
-    <h5 class=" text-2xl sm:text-3xl font-semibold text-center poppins ">
+    <h5 class=" text-2xl sm:text-3xl font-semibold text-center poppins">
       The <span class="text-violet-400 poppins">Complete</span> Package
     </h5>
     <div
@@ -160,49 +160,63 @@
             <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
             <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
             <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
-            <th class="bg-violet-700 rounded text-white whitespace-nowrap p-4 px-8"
+            <th
+              class="bg-violet-700 rounded text-white whitespace-nowrap p-4 px-8"
               >Me</th
             >
           </tr>
         </thead>
         <tbody>
-          <tr class="border-b border-solid border-slate-200 ">
-            <td class="border-right border-solid border-white pl-4 pr-8 py-4 font-semibold tex-sm">Dedication</td>
+          <tr class="border-b border-solid border-slate-200">
+            <td
+              class="border-right border-solid border-white pl-4 pr-8 py-4 font-semibold tex-sm"
+              >Dedication</td
+            >
+            <td><i class="fa-solid fa-check text-green-500"></i></td>
             <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-            <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-            <td><i class="fa-solid fa-check  text-green-500"></i></td>
+            <td><i class="fa-solid fa-check text-green-500"></i></td>
           </tr>
-          <tr class="border-b border-solid border-slate-200 ">
-            <td class="border-right border-solid border-white pl-4 pr-8 py-4 font-semibold tex-sm">Critical Thinker</td>
+          <tr class="border-b border-solid border-slate-200">
+            <td
+              class="border-right border-solid border-white pl-4 pr-8 py-4 font-semibold tex-sm"
+              >Critical Thinker</td
+            >
             <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
             <td><i class="fa-solid fa-check text-green-500"></i></td>
-            <td><i class="fa-solid fa-check  text-green-500"></i></td>
+            <td><i class="fa-solid fa-check text-green-500"></i></td>
           </tr>
-          <tr class="border-b border-solid border-slate-200 ">
-            <td class="border-right border-solid border-white pl-4 pr-8 py-4 font-semibold tex-sm">Interpersonal Skill</td>
+          <tr class="border-b border-solid border-slate-200">
+            <td
+              class="border-right border-solid border-white pl-4 pr-8 py-4 font-semibold tex-sm"
+              >Interpersonal Skill</td
+            >
             <td><i class="fa-solid fa-check text-green-500"></i></td>
             <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
-            <td><i class="fa-solid fa-check  text-green-500"></i></td>
+            <td><i class="fa-solid fa-check text-green-500"></i></td>
           </tr>
-          <tr class="border-b border-solid border-slate-200 ">
-            <td class="border-right border-solid border-white pl-4 pr-8 py-4 font-semibold tex-sm">Adaptability</td>
+          <tr class="border-b border-solid border-slate-200">
+            <td
+              class="border-right border-solid border-white pl-4 pr-8 py-4 font-semibold tex-sm"
+              >Adaptability</td
+            >
             <td><i class="fa-solid fa-xmark text-slate-500"></i></td>
             <td><i class="fa-solid fa-check text-green-500"></i></td>
-            <td><i class="fa-solid fa-check  text-green-500"></i></td>
+            <td><i class="fa-solid fa-check text-green-500"></i></td>
           </tr>
-          <tr class="border-b border-solid border-slate-200 ">
-            <td class="border-right border-solid border-white pl-4 pr-8 py-4 font-semibold tex-sm">Programming ability</td>
+          <tr class="border-b border-solid border-slate-200">
+            <td
+              class="border-right border-solid border-white pl-4 pr-8 py-4 font-semibold tex-sm"
+              >Programming ability</td
+            >
             <td><i class="fa-solid fa-check text-green-500"></i></td>
             <td><i class="fa-solid fa-check text-green-500"></i></td>
-            <td><i class="fa-solid fa-check  text-green-500"></i></td>
+            <td><i class="fa-solid fa-check text-green-500"></i></td>
           </tr>
         </tbody>
       </table>
     </div>
     <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-      <p>
-        Scroll to see more &rarr;
-      </p>
+      <p>Scroll to see more &rarr;</p>
     </div>
     <p class="mx-auto">So why no invest?</p>
   </section>
