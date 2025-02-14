@@ -205,7 +205,7 @@
           </tr>
           <tr class="border-b border-solid border-slate-200">
             <td
-              class="border-right border-solid border-white pl-4 pr-8 py-4 font-semibold tex-sm"
+              class="border-right border-solid border-white pl-4 pr-8 py-4  font-semibold tex-sm"
               >Programming ability</td
             >
             <td><i class="fa-solid fa-check text-green-500"></i></td>
